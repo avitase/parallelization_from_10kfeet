@@ -8,6 +8,7 @@
 
 ## Types of parallelization
 - Asynchronous execution
+  - Example: [(Boost) Asio](https://think-async.com/Asio/) one `io::context` with multiple threads vs. many single threaded `io::context`s, cf. for example [CppCon 2019: Robert Leahy "The Networking TS in Practice: Patterns for Real World Problems", Slide 22ff](https://youtu.be/3wy1OPqNZZ8?t=1759)
 - Data parallelism
 - Task parallelism
 - Threads
@@ -21,6 +22,7 @@
 
 ## Libraries
 - [TBB](https://github.com/oneapi-src/oneTBB)
+- [(Boost) Asio](https://think-async.com/Asio/)
 - [ZeroMQ](https://zeromq.org/)
 - [multiprocessing](https://docs.python.org/3.9/library/multiprocessing.html)
 - (replace raw loops with [numpy](https://numpy.org/))
