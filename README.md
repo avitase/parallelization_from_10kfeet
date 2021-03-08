@@ -32,3 +32,5 @@
 - Before talking about parallelization at all: [Amdahl's Law](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 - Explain [Roofline model](https://en.wikipedia.org/wiki/Roofline_model): decide whether application is CPU or I/O bound
 
+## Articles to read
+- [Python Concurrency: The Tricky Bits](https://python.hamel.dev/concurrency/), discussed on [the Real Python podcast](https://realpython.com/podcasts/rpp/50/#t=2127) and based on [David Beazley's PyCon 2015 talk](https://youtu.be/MCs5OvhV9S4)
